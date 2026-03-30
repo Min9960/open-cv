@@ -4,7 +4,7 @@ import sys
 print(cv2.__version__)
 
 # 이미지 불러오기
-img = cv2.imread('lena.jpg')
+img = cv2.imread('../lena.jpg')
 
 def mouse_callback(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
