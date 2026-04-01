@@ -1,6 +1,7 @@
 # 가상환경
 myenv/
 venv/
+venv39/
 .env/
 
 # 캐시
